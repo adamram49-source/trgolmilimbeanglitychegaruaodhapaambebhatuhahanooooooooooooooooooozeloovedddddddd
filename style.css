@@ -1,0 +1,40 @@
+body {
+  font-family: Arial;
+  background: #eef3ff;
+  text-align: center;
+  padding: 20px;
+}
+
+textarea, input {
+  width: 80%;
+  margin: 6px;
+  font-size: 16px;
+}
+
+button, select {
+  padding: 10px 16px;
+  margin: 5px;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+.word {
+  display: inline-block;
+  background: white;
+  padding: 10px 14px;
+  margin: 6px;
+  border-radius: 8px;
+  cursor: grab;
+  transition: transform 0.4s, opacity 0.4s;
+}
+
+.target {
+  border: 2px dashed #555;
+  min-width: 120px;
+}
+
+#message {
+  font-size: 26px;
+  height: 40px;
+  margin-top: 10px;
+}
