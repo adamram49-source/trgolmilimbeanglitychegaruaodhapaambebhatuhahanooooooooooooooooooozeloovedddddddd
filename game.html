@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html lang="he">
+<head>
+<meta charset="UTF-8">
+<title>משחק</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<h2 id="title"></h2>
+
+<select onchange="startGame(this.value)">
+  <option value="en">גרירה: עברית → אנגלית</option>
+  <option value="he">גרירה: אנגלית → עברית</option>
+</select>
+
+<div id="board"></div>
+<div id="message"></div>
+
+<br>
+<button onclick="shareGame()">🔗 שתף</button>
+<button onclick="location.href='games.html'">⬅ חזרה</button>
+
+<script src="app.js"></script>
+<script>loadGame();</script>
+</body>
+</html>
